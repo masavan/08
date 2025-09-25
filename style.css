@@ -38,6 +38,8 @@
     clear: both; /* Властивість clear для псевдоелемента ::after */
 }
 .center{
+    display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
